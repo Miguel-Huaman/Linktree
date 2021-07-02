@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
+import UpdateHooks from './functions/UpdateHooks';
+import PhotoUser from './components/PhotoUser';
+import TitleUser from './components/TitleUser';
+import ButtonLink from './components/ButtonLink';
+import ButtonRandom from './components/ButtonRandom';
 
 function App() {
+
+  const {
+    userName,
+    userPhoto,
+    userText1,
+    userText2,
+    userText3,
+    userLink1,
+    userLink2,
+    userLink3,
+    randomUser
+  } = UpdateHooks();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Fragment>
+      <ButtonRandom text='Random' function={randomUser} />
+      <PhotoUser src={userPhoto} alt={userName} />
+      <TitleUser username={userName} />
+      <ButtonLink text={userText1} link={userLink1} />
+      <ButtonLink text={userText2} link={userLink2} />
+      <ButtonLink text={userText3} link={userLink3} />
+    </Fragment>
+  )
+};
 
 export default App;
