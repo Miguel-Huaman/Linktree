@@ -3,13 +3,15 @@
     padding: 1em;
     border-radius: 0.5em;
     background-color: var(--text-color);
+    border: 2px solid var(--text-color);
     color: var(--background);
     font-size: 1rem;
     font-weight: 600;
-    border-style: none;
     cursor: pointer;
 }
 
 .ButtonLink:hover {
-    opacity: 0.8;
+    background-color: var(--background);
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
 }

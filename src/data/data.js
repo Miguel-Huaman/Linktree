@@ -22,22 +22,22 @@ export const usersData = [
   {
     name: "Andy Warhol",
     bio: "Artista",
-    text1: "Genio del INSTAGRAM",
-    url1: "https://www.instagram.com",
-    text2: "Collages en PINTEREST",
+    text1: "Nunca quise ser pintor, yo quería ser YOUTUBER",
+    url1: "https://www.youtube.com",
+    text2: "¿Por qué la gente piensa que los INFLUENCERS son especiales? Es sólo otro trabajo",
     url2: "https://www.pinterest.com",
-    text3: "Largometrajes en YOUTUBE",
-    url3: "https://www.youtube.com"
+    text3: "Creo que leí demasiados TWEETS",
+    url3: "https://www.twitter.com"
   },
   {
     name: "Michael Jackson",
     bio: "Rey del Pop",
     text1: "Rey del TIK TOK",
     url1: "https://www.tiktok.com",
-    text2: "STORIES de mis conciertos",
+    text2: "Mis STORIES pretenden unir todas las razas, para que todos vivamos como una familia",
     url2: "https://www.instagram.com",
-    text3: "Tutoriales sobre mis mejores pasos en YOUTUBE",
-    url3: "https://www.youtube.com"
+    text3: "GITHUB representa algo muy especial en mi corazón",
+    url3: "https://www.github.com"
   },
   {
     name: "Platón",
@@ -52,21 +52,21 @@ export const usersData = [
   {
     name: "Charles Darwin",
     bio: "Naturalista",
-    text1: "Fotos de las AVES más impresionantes de la Isla de Galápagos",
-    url1: "https://www.instagram.com",
-    text2: "Fotos exclusivas de la Garza enana de Galápagos",
+    text1: "El instinto social guía a los animales a disfrutar de TWITTER",
+    url1: "https://www.twitter.com",
+    text2: "Fotos exclusivas de la Garza enana de Galápagos en mi INSTAGRAM",
     url2: "https://www.instagram.com",
-    text3: "Mis conferencias para evitar el tráfico de AVES amazónicas.",
-    url3: "https://www.instagram.com"
+    text3: "Yo no soy apto para ser TIK TOKER",
+    url3: "https://www.tiktok.com"
   },
   {
     name: "Salvador Dalí",
     bio: "Artista",
-    text1: "Stories ORIGINALES DE DALÍ",
+    text1: "¿Qué STORIES maravillosas logrará hoy este Salvador Dalí?",
     url1: "https://www.instagram.com",
-    text2: "Tweets ORIGINALES DE DALÍ",
+    text2: "Creo que la vida debe ser una STORIE contínua",
     url2: "https://www.instagram.com",
-    text3: "Video blog ORIGINAL DE DALÍ",
+    text3: "La mayor desgracia de la juventud actual es ONLYFANS",
     url3: "https://www.linkedin.com"
   },
   {
@@ -77,7 +77,7 @@ export const usersData = [
     text2: "Cada hombre tiene una imagen soñada de sí mismo con una Influencer",
     url2: "https://www.instagram.com",
     text3: "¿Es un buen código? Define 'bueno'",
-    url3: "https://www.linkedin.com"
+    url3: "https://www.github.com"
   },
   {
     name: "Simone de Beauvoir",
@@ -94,7 +94,7 @@ export const usersData = [
     bio: "Defensora de la razón",
     text1: "El propósito de TIK TOK es enseñarnos, no a sufrir y morir, sino a disfrutar y vivir",
     url1: "https://www.tiktok.com",
-    text2: "LINKEDIN es una herramienta básica para la supervivencia",
+    text2: "LINKEDIN es una herramienta básica para la supervivencia laboral",
     url2: "https://www.linkedin.com",
     text3: "Recreación selectiva de frases de INSTAGRAM",
     url3: "https://www.instagram.com"
