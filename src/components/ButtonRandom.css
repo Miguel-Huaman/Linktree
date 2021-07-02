@@ -1,16 +1,26 @@
 .header {
-    margin: 2em auto;
-    padding-bottom: 2em;
-    height: 5em;
-    width: 10em;
+  position: absolute;
+  height: 2em;
 }
 
-.header img {
-    display: block;
-    position: absolute;
+.dice {
+    height: 8em;
     object-fit: cover;
+    background-color: transparent;
 }
 
-.ButtonRandom {
-    height: 5em;
+#dice_1:active {
+  animation: shake 0.5s cubic-bezier(.8,.2,.2,.8) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+    filter: blur(1px);
+}
+
+@keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  20% { transform: translate(-4px, 0px) rotate(3deg); }
+  40% { transform: translate(1px, -1px) rotate(-3deg); }
+  60% { transform: translate(-4px, 1px) rotate(3deg); }
+  80% { transform: translate(-1px, -1px) rotate(-3deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
 }

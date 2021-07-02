@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { usersData } from '../data/data';
-import Foto_0 from '../images/image0.png';
-import Foto_1 from '../images/image1.svg';
-import Foto_2 from '../images/image2.svg';
-import Foto_3 from '../images/image3.png';
-import Foto_4 from '../images/image4.jpg';
-import Foto_5 from '../images/image5.jpg';
-import Foto_6 from '../images/image6.png';
+import Foto_0 from '../images/foto_0.png';
+import Foto_1 from '../images/foto_1.png';
+import Foto_2 from '../images/foto_2.png';
+import Foto_3 from '../images/foto_3.png';
+import Foto_4 from '../images/foto_4.png';
+import Foto_5 from '../images/foto_5.png';
+import Foto_6 from '../images/foto_6.png';
 import RandomNumber from './RandomNumber';
 
 const UpdateHooks = () => {
@@ -53,7 +53,6 @@ const UpdateHooks = () => {
         updateLink3(
             usersData[sameRandomNumber].url3
         );
-
         updateFoto(
             () => {
                 switch (sameRandomNumber) {
