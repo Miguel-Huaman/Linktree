@@ -1,0 +1,14 @@
+.ButtonLink {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var(--text-color);
+    color: var(--background);
+    font-size: 1rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.ButtonLink:hover {
+    opacity: 0.8;
+}

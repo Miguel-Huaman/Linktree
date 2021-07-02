@@ -22,7 +22,7 @@ function App() {
 
   return (
     <Fragment>
-      <ButtonRandom text='Random' function={randomUser} />
+      <ButtonRandom function={randomUser} />
       <PhotoUser src={userPhoto} alt={userName} />
       <TitleUser username={userName} />
       <ButtonLink text={userText1} link={userLink1} />

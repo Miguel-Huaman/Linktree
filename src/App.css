@@ -1,15 +1,23 @@
-* {
-    background-color: #222;
-    color: #fff
+:root {
+    --background: #222;
+    --text-color: #eee;
 }
 
-#root, .Info {
+* {
+    background-color: var(--background);
+    color: var(--text-color);
+    font-family: 'segoe UI';
+}
+
+#root {
     display: flex;
     flex-direction: column;
     max-width: 720px;
+    margin: 0 auto;
 }
 
 img {
-    max-height: 10rem;
+    max-width: 10em;
+    margin: 0 auto;
     object-fit: cover;
 }

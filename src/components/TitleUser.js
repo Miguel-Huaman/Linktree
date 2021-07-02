@@ -1,4 +1,5 @@
 import React from 'react';
+import './TitleUser.css';
 
 function TitleUser(props) {
     return (

@@ -1,0 +1,5 @@
+.TitleUser {
+    color: var(--text-color);
+    font-size: 3rem;
+    text-align: center;
+}

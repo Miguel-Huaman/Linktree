@@ -1,10 +1,12 @@
 import React from 'react';
+import './ButtonRandom.css';
+import Random from '../images/random.png'
 
 function ButtonLink(props) {
     return (
-        <button className='ButtonRandom' onClick={props.function}>
-            {props.text}
-        </button>
+        <div className='header' onClick={props.function}>
+            <img src={ Random } alt='random' />
+        </div>
     )
 };
 
