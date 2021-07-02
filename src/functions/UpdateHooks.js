@@ -7,6 +7,11 @@ import Foto_3 from '../images/foto_3.png';
 import Foto_4 from '../images/foto_4.png';
 import Foto_5 from '../images/foto_5.png';
 import Foto_6 from '../images/foto_6.png';
+import Foto_7 from '../images/foto_7.png';
+import Foto_8 from '../images/foto_8.png';
+import Foto_9 from '../images/foto_9.png';
+import Foto_10 from '../images/foto_10.png';
+import Foto_11 from '../images/foto_11.png';
 import RandomNumber from './RandomNumber';
 
 const UpdateHooks = () => {
@@ -73,6 +78,16 @@ const UpdateHooks = () => {
                         return Foto_5
                     case 6:
                         return Foto_6
+                    case 7:
+                        return Foto_7
+                    case 8:
+                        return Foto_8
+                    case 9:
+                        return Foto_9
+                    case 10:
+                        return Foto_10
+                    case 11:
+                        return Foto_11
                     default:
                         return Foto_0
                 }
