@@ -81,7 +81,7 @@ export const usersData = [
   },
   {
     name: "Simone de Beauvoir",
-    bio: "Escritora y filósofa",
+    bio: "Filósofa",
     text1: "TIK TOK es aún más difícil de explicar que la felicidad",
     url1: "https://www.tiktok.com",
     text2: "TWITTER no es una cosa, es una situación",
@@ -111,7 +111,7 @@ export const usersData = [
   },
   {
     name: "Marie Curie",
-    bio: "Premio Nobel de Física y Química",
+    bio: "Premio Nobel de Química",
     text1: "GITHUB era como un nuevo mundo abierto para mí",
     url1: "https://www.github.com",
     text2: "Estoy entre aquellos que piensan que TIK TOK tiene una gran belleza",

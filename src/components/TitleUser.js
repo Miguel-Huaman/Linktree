@@ -3,7 +3,7 @@ import './TitleUser.css';
 
 function TitleUser(props) {
     return (
-        <h1 className="TitleUser">
+        <h1 className="main__TitleUser">
             {props.username}
         </h1>
     )

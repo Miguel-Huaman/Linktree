@@ -3,7 +3,7 @@ import './PhotoUser.css';
 
 function PhotoUser(props) {
     return (
-        <img className="PhotoUser" src={props.src} alt={props.alt} />
+        <img className="main__PhotoUser" src={props.src} alt={props.alt} />
     )
 };
 

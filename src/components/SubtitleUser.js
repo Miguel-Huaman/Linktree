@@ -3,7 +3,7 @@ import './SubtitleUser.css';
 
 function SubtitleUser(props) {
     return (
-        <h3 className="SubtitleUser">
+        <h3 className="main__SubtitleUser">
             {props.userBio}
         </h3>
     )

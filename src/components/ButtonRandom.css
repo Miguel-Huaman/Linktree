@@ -1,11 +1,11 @@
-.header {
+.header__icon {
   position: absolute;
-  height: 6em;
-  width: 6em;
+  height: 4em;
+  width: 4em;
   background-image: url(../images/dice-01.svg);
 }
 
-.header:active {
+.header__icon:active {
   animation: shake 0.6s cubic-bezier(.8,.2,.2,.8) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
