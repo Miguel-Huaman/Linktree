@@ -12,12 +12,12 @@ export const usersData = [
   {
     name: "Nostradamus",
     bio: "Astrónomo y Adivino",
-    text1: "Profecías para el 2022 en mi TWITTER oficial",
-    url1: "https://www.twitter.com",
-    text2: "Stories con las mejores predicciones",
+    text1: "Profecías para el 2022 en mi canal de YOUTUBE oficial",
+    url1: "https://www.youtube.com",
+    text2: "Tarde o temprano verán que todas mis STORIES son predicciones del futuro",
     url2: "https://www.instagram.com",
-    text3: "Documentales en YOUTUBE sobre mis profecías",
-    url3: "https://www.youtube.com"
+    text3: "El hombre por su propio TWEET terminará destruyéndose",
+    url3: "https://www.twitter.com"
   },
   {
     name: "Andy Warhol",
@@ -42,11 +42,11 @@ export const usersData = [
   {
     name: "Platón",
     bio: "Seguidor de Sócrates",
-    text1: "Los mejores tweets sobre SÓCRATES",
-    url1: "https://www.twitter.com",
-    text2: "Las mejores stories sobre SÓCRATES",
+    text1: "Donde reina el amor sobra el ONLYFANS",
+    url1: "https://www.onlyfans.com",
+    text2: "TWITTER es el diálogo del alma consigo misma",
     url2: "https://www.instagram.com",
-    text3: "El mejor blog sobre SÓCRATES",
+    text3: "GITHUB es el triunfo de la persuasión sobre la fuerza",
     url3: "https://www.meidum.com"
   },
   {
@@ -72,11 +72,11 @@ export const usersData = [
   {
     name: "Cleopatra",
     bio: "Reina de Egipto",
-    text1: "Stories en el Río Nilo",
+    text1: "STORIES en el Río Nilo",
     url1: "https://www.instagram.com",
-    text2: "Cada hombre tiene una imagen soñada de sí mismo con una Influencer",
+    text2: "Cada hombre tiene una imagen soñada de sí mismo con una INFLUENCER",
     url2: "https://www.instagram.com",
-    text3: "¿Es un buen código? Define 'bueno'",
+    text3: "¿Es un buen CÓDIGO? Define 'bueno'",
     url3: "https://www.github.com"
   },
   {

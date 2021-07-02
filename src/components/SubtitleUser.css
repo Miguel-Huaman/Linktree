@@ -1,7 +1,8 @@
 .SubtitleUser {
     margin: 0;
-    padding: 0 1em 1em;
+    padding: 0 0 1em;
     color: var(--text-color);
     font-size: 1.5rem;
+    font-weight: 400;
     text-align: center;
 }
