@@ -1,4 +1,5 @@
 import React from 'react';
+import './PhotoUser.css';
 
 function PhotoUser(props) {
     return (

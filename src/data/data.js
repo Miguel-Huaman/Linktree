@@ -1,56 +1,72 @@
 export const usersData = [
   {
     name: "Miguel Angel",
-    text1: "text1",
+    bio: "Desarrollador Frontend",
+    text1: "Mis proyectos en GITHUB",
     url1: "https://github.com/Miguel-HH/Portafolio",
-    text2: "text2",
+    text2: "Perfil de LINKEDIN",
     url2: "https://www.google.com",
-    text3: "text3",
+    text3: "Mi cuenta de EDTEAM",
     url3: "https://www.twitter.com"
   },
   {
-    name: "Square Inc",
-    text1: "twitter",
+    name: "Nostradamus",
+    bio: "Astrónomo y Adivino",
+    text1: "Predicciones para el 2022 en mi TWITTER oficial",
     url1: "https://www.twitter.com",
-    text2: "google",
-    url2: "https://www.google.com",
-    text3: "youtube",
+    text2: "Profecías por INSTAGRAM",
+    url2: "https://www.instagram.com",
+    text3: "Documentales en YOUTUBE sobre mis profecías",
     url3: "https://www.youtube.com"
   },
   {
-    name: "Shopify Inc",
-    text1: "youtube",
-    url1: "https://www.youtube.com",
-    text2: "twitter",
-    url2: "https://www.twitter.com",
-    text3: "google",
-    url3: "https://www.google.com"
-  },
-  {
-    name: "Sunrun Inc",
-    text1: "instagram",
+    name: "Andy Warhol",
+    bio: "Artista",
+    text1: "Genio del INSTAGRAM",
     url1: "https://www.instagram.com",
-    text2: "linkedin",
-    url2: "https://www.linkedin.com",
-    text3: "github",
-    url3: "https://www.github.com"
+    text2: "Collages en PINTEREST",
+    url2: "https://www.pinterest.com",
+    text3: "Largometrajes en YOUTUBE",
+    url3: "https://www.youtube.com"
   },
   {
-    name: "Adobe Inc",
-    text1: "linkedin",
-    url1: "https://www.linkedin.com",
-    text2: "github",
-    url2: "https://www.github.com",
-    text3: "instagram",
+    name: "Michael Jackson",
+    bio: "Rey del Pop",
+    text1: "Rey del TIK TOK",
+    url1: "https://www.tiktok.com",
+    text2: "STORIES de mis conciertos",
+    url2: "https://www.instagram.com",
+    text3: "Tutoriales sobre mis mejores pasos en YOUTUBE",
+    url3: "https://www.youtube.com"
+  },
+  {
+    name: "Platón",
+    bio: "Seguidor de Sócrates",
+    text1: "Los mejores tweets de SÓCRATES",
+    url1: "https://www.twitter.com",
+    text2: "Las mejores stories sobre SÓCRATES",
+    url2: "https://www.instagram.com",
+    text3: "El mejor blog sobre SÓCRATES",
+    url3: "https://www.meidum.com"
+  },
+  {
+    name: "Charles Darwin",
+    bio: "Naturalista",
+    text1: "Fotos de las AVES más impresionantes de la Isla de Galápagos",
+    url1: "https://www.instagram.com",
+    text2: "Fotos de la Garza enana de Galápagos",
+    url2: "https://www.instagram.com",
+    text3: "Mis conferencias para evitar el tráfico de AVES amazónicas.",
     url3: "https://www.instagram.com"
   },
   {
-    name: "HubSpot Inc",
-    text1: "github",
-    url1: "https://www.github.com",
-    text2: "instagram",
+    name: "Salvador Dalí",
+    bio: "Artista",
+    text1: "Stories ORIGINALES DE DALÍ",
+    url1: "https://www.instagram.com",
+    text2: "Tweets ORIGINALES DE DALÍ",
     url2: "https://www.instagram.com",
-    text3: "linkedin",
+    text3: "Video blog ORIGINAL DE DALÍ",
     url3: "https://www.linkedin.com"
-  },
+  }
 ];

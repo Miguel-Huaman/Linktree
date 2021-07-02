@@ -12,6 +12,7 @@ import RandomNumber from './RandomNumber';
 const UpdateHooks = () => {
 
     const [userName, updateName] = useState(usersData[0].name);
+    const [userBio, updateBio] = useState(usersData[0].bio);
     const [userText1, updateText1] = useState(usersData[0].text1);
     const [userText2, updateText2] = useState(usersData[0].text2);
     const [userText3, updateText3] = useState(usersData[0].text3);
@@ -28,6 +29,10 @@ const UpdateHooks = () => {
 
         updateName(
             usersData[sameRandomNumber].name
+        );
+
+        updateBio(
+            usersData[sameRandomNumber].bio
         );
 
         updateText1(
@@ -77,6 +82,7 @@ const UpdateHooks = () => {
 
     return {
         userName,
+        userBio,
         userPhoto,
         userText1,
         userText2,

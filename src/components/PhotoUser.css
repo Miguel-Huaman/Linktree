@@ -1,0 +1,6 @@
+.PhotoUser {
+    max-width: 12em;
+    margin: 5em auto 0;
+    object-fit: cover;
+    border-radius: 100%;
+}
